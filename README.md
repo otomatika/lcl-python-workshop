@@ -25,6 +25,7 @@ LCL Logistics, a global leader in integrated logistics and transport solutions, 
   - Hands-on: Connecting Python to SQL databases and executing queries.
 
 - **Session 3: Building Reports for Business Intelligence**
+  - Contents used from [Python course for data analysis](https://github.com/jbossios/python-tutorial)
   - Using Python for high-level business intelligence reporting.
   - Complex data manipulation techniques with `pandas` and `matplotlib`.
 
