@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Truck Information</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <h1>Truck Information</h1>
+    {% for truck in trucks %}
+        <div class="truck">
+            <h2>Truck ID: {{ truck.id }}</h2>
+            <p>License Plate: {{ truck.license_plate }}</p>
+            <p>Model: {{ truck.model }}</p>
+            <p>Capacity: {{ truck.capacity }}</p>
+        </div>
+    {% endfor %}
+</body>
+</html>
