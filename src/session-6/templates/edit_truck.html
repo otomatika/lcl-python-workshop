@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Edit Truck</title>
+</head>
+<body>
+    <h1>Edit Truck</h1>
+    <form method="post">
+        <label for="license_plate">License Plate:</label>
+        <input type="text" id="license_plate" name="license_plate" value="{{ truck.license_plate }}" required>
+
+        <label for="model">Model:</label>
+        <input type="text" id="model" name="model" value="{{ truck.model }}" required>
+
+        <label for="capacity_ton">Capacity (in tons):</label>
+        <input type="number" id="capacity_ton" name="capacity_ton" value="{{ truck.capacity_ton }}">
+
+        <button type="submit">Update Truck</button>
+    </form>
+    <a href="{{ url_for('list_trucks') }}">Back to List</a>
+</body>
+</html>
