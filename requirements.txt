@@ -1,0 +1,5 @@
+ipykernel
+pyodbc==4.0.34
+mariadb==1.1.5.post3
+python-dotenv
+pandas==2.2.2
